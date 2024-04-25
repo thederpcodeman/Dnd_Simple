@@ -13,10 +13,10 @@ public class ArtSub  extends Choice {
     public ArrayList<Option> run(){
         ArrayList<Option> list = new ArrayList<Option>();
         ArrayList<Option> pick = new ArrayList<Option>();
-        pick.add(new Option("Alchemist"));
-        pick.add(new Option("Armorer"));
-        pick.add(new Option("Artistic"));
-        pick.add(new Option("Battle Smith"));
+        pick.add(new Option("Alchemist (Artificer)"));
+        pick.add(new Option("Armorer (Artificer)"));
+        pick.add(new Option("Artistic (Artificer)"));
+        pick.add(new Option("Battle Smith (Artificer)"));
         Option a = Question.ask(pick, "Choose your Artificer Specialty");
         list.add(a);
         for (Option i : a.run()){
