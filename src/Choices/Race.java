@@ -17,8 +17,11 @@ public class Race extends Choice {
         pick.add(new Option("Human"));
         pick.add(new Option("Teifling"));
         pick.add(new Option("Elf"));
-        list.add(Question.ask(pick, "Choose your class"));
-
+        Option a = Question.ask(pick, "Choose your race");
+        list.add(a);
+        for (Option i : a.run()){
+            list.add(i);
+        }
 
         return list;
     }

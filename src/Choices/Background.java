@@ -55,8 +55,11 @@ public class Background extends Choice {
         pick.add(new Option("Urban Bounty Hunter"));
         pick.add(new Option("Urchin"));
 
-        list.add(Question.ask(pick, "Choose your background"));
-
+        Option a = Question.ask(pick, "Choose your background");
+        list.add(a);
+        for (Option i : a.run()){
+            list.add(i);
+        }
 
         return list;
     }

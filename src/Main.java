@@ -11,6 +11,7 @@ public class Main {
         // Press Alt+Enter with your caret at the highlighted text to see how
         // IntelliJ IDEA suggests fixing it.
         Scanner sc = new Scanner(System.in);
+        System.out.println("Would you like to randomize (true/false)");
         Question.rand = sc.nextBoolean();
         Charicter guy = new Charicter();
         for (Option i : guy.run()){

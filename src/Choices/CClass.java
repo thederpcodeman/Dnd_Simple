@@ -6,8 +6,8 @@ import src.Question;
 
 import java.util.ArrayList;
 
-public class Class extends Choice {
-    public Class(){
+public class CClass extends Choice {
+    public CClass(){
         super();
     }
     public ArrayList<Option> run(){
@@ -17,7 +17,11 @@ public class Class extends Choice {
         pick.add(new Option("Bard"));
         pick.add(new Option("Cleric"));
         pick.add(new Option("Druid"));
-        list.add(Question.ask(pick, "Choose your class"));
+        Option a = Question.ask(pick, "Choose your class");
+        list.add(a);
+        for (Option i : a.run()){
+            list.add(i);
+        }
 
 
         return list;
