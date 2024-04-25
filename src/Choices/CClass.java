@@ -13,10 +13,20 @@ public class CClass extends Choice {
     public ArrayList<Option> run(){
         ArrayList<Option> list = new ArrayList<Option>();
         ArrayList<Option> pick = new ArrayList<Option>();
+        pick.add(new Option("Artificer"));
         pick.add(new Option("Barbarian"));
         pick.add(new Option("Bard"));
+        pick.add(new Option("Blood Hunter"));
         pick.add(new Option("Cleric"));
         pick.add(new Option("Druid"));
+        pick.add(new Option("Fighter"));
+        pick.add(new Option("Monk"));
+        pick.add(new Option("Paladin"));
+        pick.add(new Option("Ranger"));
+        pick.add(new Option("Rogue"));
+        pick.add(new Option("Sorcerer"));
+        pick.add(new Option("Warlock"));
+        pick.add(new Option("Wizard"));
         Option a = Question.ask(pick, "Choose your class");
         list.add(a);
         for (Option i : a.run()){
