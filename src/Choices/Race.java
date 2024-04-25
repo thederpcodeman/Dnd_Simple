@@ -66,9 +66,6 @@ public class Race extends Choice {
 
         Option a = Question.ask(pick, "Choose your race");
         list.add(a);
-        for (Option i : a.run()){
-            list.add(i);
-        }
 
         return list;
     }

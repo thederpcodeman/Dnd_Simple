@@ -29,9 +29,6 @@ public class CClass extends Choice {
         pick.add(new Option("Wizard"));
         Option a = Question.ask(pick, "Choose your class");
         list.add(a);
-        for (Option i : a.run()){
-            list.add(i);
-        }
 
 
         return list;
