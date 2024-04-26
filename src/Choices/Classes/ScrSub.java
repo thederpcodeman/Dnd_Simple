@@ -38,7 +38,7 @@ public class ScrSub extends Choice {
         list.add(a);
         pick.remove(a);
         a = Question.ask(pick, "Choose your Second Metamagic Option");
-
+        list.add(a);
 
         return list;
     }
