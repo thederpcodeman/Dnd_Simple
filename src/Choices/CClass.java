@@ -2,6 +2,10 @@ package src.Choices;
 
 import src.Choice;
 import src.Option;
+import src.Options.Classes.Artificer;
+import src.Options.Classes.Barbarian;
+import src.Options.Classes.Bard;
+import src.Options.Classes.Blood_Hunter;
 import src.Question;
 
 import java.util.ArrayList;
@@ -13,10 +17,10 @@ public class CClass extends Choice {
     public ArrayList<Option> run(){
         ArrayList<Option> list = new ArrayList<Option>();
         ArrayList<Option> pick = new ArrayList<Option>();
-        pick.add(new Option("Artificer"));
-        pick.add(new Option("Barbarian"));
-        pick.add(new Option("Bard"));
-        pick.add(new Option("Blood Hunter"));
+        pick.add(new Artificer("Artificer"));
+        pick.add(new Barbarian("Barbarian"));
+        pick.add(new Bard("Bard"));
+        pick.add(new Blood_Hunter("Blood Hunter"));
         pick.add(new Option("Cleric"));
         pick.add(new Option("Druid"));
         pick.add(new Option("Fighter"));

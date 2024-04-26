@@ -13,9 +13,6 @@ public class Charicter extends Choice {
     public ArrayList<Option> run(){
         ArrayList<Option> list = new ArrayList<Option>();
         Option a = new Yes("PC");
-        for (Option i : a.run()){
-            list.add(i);
-        }
         list.add(a);
         return list;
     }

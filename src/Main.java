@@ -18,16 +18,20 @@ public class Main {
         ArrayList<Option> list = guy.run();
         ArrayList<Option> list2 = new ArrayList<>();
         ArrayList<Option> listfin = new ArrayList<>();
-        for (Option i : list){
-            for (Option i2 : i.run()){
-                list2.add(i2);
+        while (list.size() > 0){
+            for (Option i : list){
+                for (Option i2 : i.run()){
+                    list2.add(i2);
+                }
+                listfin.add(i);
             }
-            listfin.add(i);
+            list = new ArrayList<>();
+            for (Option i : list2){
+                list.add(i);
+            }
+            list2 = new ArrayList<>();
         }
-        for (Option i : list2){
-            list.add(i);
-        }
-        list2 = new ArrayList<>();
+
 
         for (Option i : listfin){
             System.out.println(i.name);
