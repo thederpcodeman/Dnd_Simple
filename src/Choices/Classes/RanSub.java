@@ -23,6 +23,20 @@ public class RanSub extends Choice {
         pick.add(new Option("Drakewarden (Ranger)"));
         Option a = Question.ask(pick, "Choose your Ranger Conclave");
         list.add(a);
+        pick = new ArrayList<Option>();
+        pick.add(new Option("Archery (Fighting Style)"));
+        pick.add(new Option("Blind Fighting (Fighting Style)"));
+        pick.add(new Option("Defence (Fighting Style)"));
+        pick.add(new Option("Druidic Warrior (Fighting Style)"));
+        pick.add(new Option("Dueling (Fighting Style)"));
+        pick.add(new Option("Thrown Weapon Fighting (Fighting Style)"));
+        pick.add(new Option("Two Weapon Fighting (Fighting Style)"));
+        a = Question.ask(pick, "Choose your Ranger Fighting Style");
+        list.add(a);
+        //Favored Enemy v favored foe
+        //natural explorer v deft explorer
+        //Primeval awareness v primal awareness
+        //Hide in Plain sight v Nature's veil
 
 
         return list;
