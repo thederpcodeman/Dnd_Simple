@@ -29,9 +29,6 @@ public class ClrcSub extends Choice {
         pick.add(new Option("War Domain (Cleric)"));
         Option a = Question.ask(pick, "Choose your Divine Domain");
         list.add(a);
-        for (Option i : a.run()){
-            list.add(i);
-        }
 
 
         return list;

@@ -24,9 +24,6 @@ public class PldnSub extends Choice {
         pick.add(new Option("Oathbreaker (Paladin)"));
         Option a = Question.ask(pick, "Choose your Sacred Oath");
         list.add(a);
-        for (Option i : a.run()){
-            list.add(i);
-        }
         pick = new ArrayList<Option>();
         pick.add(new Option("Blessed Warrior (Fighting Style)"));
         pick.add(new Option("Blind Fighting (Fighting Style)"));
@@ -38,9 +35,6 @@ public class PldnSub extends Choice {
 
         a = Question.ask(pick, "Choose your Paladin Fighting Style");
         list.add(a);
-        for (Option i : a.run()){
-            list.add(i);
-        }
 
 
         return list;

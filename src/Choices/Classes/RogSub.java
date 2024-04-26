@@ -24,9 +24,6 @@ public class RogSub extends Choice {
         pick.add(new Option("Thief (Rogue)"));
         Option a = Question.ask(pick, "Choose your Roguish Archetype");
         list.add(a);
-        for (Option i : a.run()){
-            list.add(i);
-        }
 
 
         return list;

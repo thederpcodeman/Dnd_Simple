@@ -25,9 +25,6 @@ public class FghtSub extends Choice {
         pick.add(new Option("Samurai (Fighter)"));
         Option a = Question.ask(pick, "Choose your Martial Archetype");
         list.add(a);
-        for (Option i : a.run()){
-            list.add(i);
-        }
         pick = new ArrayList<Option>();
         pick.add(new Option("Archery (Fighting Style)"));
         pick.add(new Option("Blind Fighting (Fighting Style)"));
@@ -43,9 +40,6 @@ public class FghtSub extends Choice {
 
         a = Question.ask(pick, "Choose your Fighter Fighting Style");
         list.add(a);
-        for (Option i : a.run()){
-            list.add(i);
-        }
 
 
         return list;

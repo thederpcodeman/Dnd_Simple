@@ -19,9 +19,6 @@ public class ArtSub  extends Choice {
         pick.add(new Option("Battle Smith (Artificer)"));
         Option a = Question.ask(pick, "Choose your Artificer Specialty");
         list.add(a);
-        for (Option i : a.run()){
-            list.add(i);
-        }
 
 
         return list;

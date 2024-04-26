@@ -25,9 +25,6 @@ public class BarbSub extends Choice {
 
         Option a = Question.ask(pick, "Choose your Primal Path");
         list.add(a);
-        for (Option i : a.run()){
-            list.add(i);
-        }
 
 
         return list;

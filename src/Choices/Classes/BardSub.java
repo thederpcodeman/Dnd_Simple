@@ -24,9 +24,6 @@ public class BardSub extends Choice {
 
         Option a = Question.ask(pick, "Choose your Bard College");
         list.add(a);
-        for (Option i : a.run()){
-            list.add(i);
-        }
 
 
         return list;

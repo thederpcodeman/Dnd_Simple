@@ -25,9 +25,6 @@ public class MnkSub extends Choice {
         pick.add(new Option("Way of the Sun Soul (Monk)"));
         Option a = Question.ask(pick, "Choose your Monastic Tradition");
         list.add(a);
-        for (Option i : a.run()){
-            list.add(i);
-        }
 
 
         return list;
