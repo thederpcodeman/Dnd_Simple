@@ -27,7 +27,7 @@ public class CClass extends Choice {
         pick.add(new Rogue("Rogue"));
         pick.add(new Sorcerer("Sorcerer"));
         pick.add(new Warlock("Warlock"));
-        pick.add(new Option("Wizard"));
+        pick.add(new Wizard("Wizard"));
         Option a = Question.ask(pick, "Choose your class");
         list.add(a);
 
