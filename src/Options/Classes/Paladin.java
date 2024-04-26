@@ -2,18 +2,17 @@ package src.Options.Classes;
 
 import src.Choice;
 import src.Choices.Classes.ArtSub;
-import src.Choices.Classes.MnkSub;
 import src.Option;
 
 import java.util.ArrayList;
 
-public class Monk extends Option {
-    public Monk(String n){
+public class Paladin extends Option {
+    public Paladin(String n){
         super(n);
     }
     public ArrayList<Option> run(){
         ArrayList<Option> list = new ArrayList<Option>();
-        Choice sp = new MnkSub();
+        Choice sp = new ArtSub();
         for (Option i : sp.run()){
             list.add(i);
         }
