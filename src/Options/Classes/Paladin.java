@@ -12,7 +12,7 @@ public class Paladin extends Option {
     }
     public ArrayList<Option> run(){
         ArrayList<Option> list = new ArrayList<Option>();
-        Choice sp = new ArtSub();
+        Choice sp = new PldnSub();
         for (Option i : sp.run()){
             list.add(i);
         }
