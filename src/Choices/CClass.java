@@ -23,7 +23,7 @@ public class CClass extends Choice {
         pick.add(new Fighter("Fighter"));
         pick.add(new Monk("Monk"));
         pick.add(new Paladin("Paladin"));
-        pick.add(new Option("Ranger"));
+        pick.add(new Ranger("Ranger")); //Not fininished, so many choices
         pick.add(new Rogue("Rogue"));
         pick.add(new Sorcerer("Sorcerer"));
         pick.add(new Warlock("Warlock"));
