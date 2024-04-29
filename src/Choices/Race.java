@@ -37,12 +37,12 @@ public class Race extends Choice {
         pick.add(new DualSource("Genasi (Earth)", "Mordenkainen's Earth Genasi (Earth Genasi)","Elemental Evil's Earth Genasi (Earth Genasi)"));//
         pick.add(new DualSource("Genasi (Fire)", "Mordenkainen's Fire Genasi (Fire Genasi)","Elemental Evil's Fire Genasi (Fire Genasi)"));//
         pick.add(new DualSource("Genasi (Water)", "Mordenkainen's Water Genasi (Water Genasi)","Elemental Evil's Water Genasi (Water Genasi)"));//
-        pick.add(new Option("Githyanki"));
-        pick.add(new Option("Githzerai"));
-        pick.add(new Option("Goliath"));
-        pick.add(new Option("Harengon"));
-        pick.add(new Option("Kenku"));
-        pick.add(new Option("Locathah"));
+        pick.add(new DualSource("Githyanki", "Monsters of the Multiverse's Githyanki (Githyanki)","Tome of Foes's Githyanki (Githyanki)"));//
+        pick.add(new DualSource("Githzerai", "Monsters of the Multiverse's Githzerai (Githzerai)","Tome of Foes's Githzerai (Githzerai)"));//
+        pick.add(new DualSource("Goliath", "Mordenkainen's Goliath (Goliath)","Elemental Evil's Goliath (Goliath)"));//
+        pick.add(new Option("Harengon"));//
+        pick.add(new DualSource("Kenku", "Mordenkainen's Kenku (Kenku)","Volo's Kenku (Kenku)"));//
+        pick.add(new Option("Locathah"));//
         pick.add(new Option("Owlin"));
         pick.add(new Option("Satyr"));
         pick.add(new Option("Sea Elf"));
