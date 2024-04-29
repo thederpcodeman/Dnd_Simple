@@ -21,7 +21,7 @@ public class Race extends Choice {
         pick.add(new HalfElf("Half Elf"));//
         pick.add(new Option("Half Orc"));//
         pick.add(new Halfling("Halfling"));
-        pick.add(new Option("Human"));
+        pick.add(new Human("Human"));
         pick.add(new Option("Teifling"));
 
         //Exotic Lineages
