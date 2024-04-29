@@ -43,12 +43,12 @@ public class Race extends Choice {
         pick.add(new Option("Harengon"));//
         pick.add(new DualSource("Kenku", "Mordenkainen's Kenku (Kenku)","Volo's Kenku (Kenku)"));//
         pick.add(new Option("Locathah"));//
-        pick.add(new Option("Owlin"));
-        pick.add(new Option("Satyr"));
-        pick.add(new Option("Sea Elf"));
-        pick.add(new Option("Shadar-Kai"));
-        pick.add(new Option("Tabaxi"));
-        pick.add(new Option("Tortle"));
+        pick.add(new Option("Owlin"));//
+        pick.add(new DualSource("Satyr", "Mordenkainen's Satyr (Satyr)","Theros's Satyr (Satyr)"));//
+        pick.add(new DualSource("Sea Elf", "Monsters of the Multiverse's Sea Elf (Sea Elf)","Tome of Foes's Sea Elf (Sea Elf)"));//
+        pick.add(new DualSource("Shadar-Kai", "Monsters of the Multiverse's Shadar-Kai (Shadar-Kai)","Tome of Foes's Shadar-Kai (Shadar-Kai)"));//
+        pick.add(new DualSource("Tabaxi", "Mordenkainen's Tabaxi (Tabaxi)","Volo's Tabaxi (Tabaxi)"));//
+        pick.add(new DualSource("Tortle", "Mordenkainen's Tortle (Tortle)","Tortle's Tortle, Tortle Squared if you will (Tortle)"));//
         pick.add(new Option("Triton"));
         pick.add(new Option("Verdan"));
 
