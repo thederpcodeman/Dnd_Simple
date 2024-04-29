@@ -20,9 +20,9 @@ public class Race extends Choice {
         pick.add(new Gnome("Gnome"));//
         pick.add(new HalfElf("Half Elf"));//
         pick.add(new Option("Half Orc"));//
-        pick.add(new Halfling("Halfling"));
-        pick.add(new Human("Human"));
-        pick.add(new Tiefling("Tiefling"));
+        pick.add(new Halfling("Halfling"));//
+        pick.add(new Human("Human"));//
+        pick.add(new Tiefling("Tiefling"));//
 
         //Exotic Lineages
         pick.add(new Option("Aarakocra"));
@@ -64,6 +64,20 @@ public class Race extends Choice {
         pick.add(new Option("Orc"));
         pick.add(new Option("Shifter"));
         pick.add(new Option("Yuan-Ti"));
+
+        //Randomizer probiblity mod
+        if (Question.rand){
+            pick.add(new Dragonborn("Dragonborn"));
+            pick.add(new Dwarf("Dwarf"));
+            pick.add(new Elf("Elf"));
+            pick.add(new Gnome("Gnome"));
+            pick.add(new HalfElf("Half Elf"));
+            pick.add(new Option("Half Orc"));
+            pick.add(new Halfling("Halfling"));
+            pick.add(new Human("Human"));
+            pick.add(new Human("Human"));
+            pick.add(new Tiefling("Tiefling"));
+        }
 
         Option a = Question.ask(pick, "Choose your race");
         list.add(a);
