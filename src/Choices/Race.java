@@ -53,9 +53,9 @@ public class Race extends Choice {
         pick.add(new Option("Verdan"));//
 
         //Monstrous Lineages
-        pick.add(new Option("Bugbear"));
-        pick.add(new Option("Centar"));
-        pick.add(new Option("Goblin"));
+        pick.add(new Option("Bugbear"));//
+        pick.add(new DualSource("Centar", "Mordenkainen's Centar (Centar)","Ravnica's Centar / Theros's Centar (Centar)"));//
+        pick.add(new Option("Goblin"));//
         pick.add(new Option("Grung"));
         pick.add(new Option("Hobgoblin"));
         pick.add(new Option("Kobold"));
