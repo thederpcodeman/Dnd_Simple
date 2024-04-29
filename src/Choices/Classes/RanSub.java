@@ -34,9 +34,29 @@ public class RanSub extends Choice {
         a = Question.ask(pick, "Choose your Ranger Fighting Style");
         list.add(a);
         //Favored Enemy v favored foe
+        pick = new ArrayList<Option>();
+        pick.add(new Option("Favored Enemy (Ranger Feature)"));
+        pick.add(new Option("Favored Foe (Ranger Feature)"));
+        a = Question.ask(pick, "Choose one");
+        list.add(a);
         //natural explorer v deft explorer
+        pick = new ArrayList<Option>();
+        pick.add(new Option("Natural Explorer (Ranger Feature)"));
+        pick.add(new Option("Deft Explorer (Ranger Feature)"));
+        a = Question.ask(pick, "Choose one");
+        list.add(a);
         //Primeval awareness v primal awareness
+        pick = new ArrayList<Option>();
+        pick.add(new Option("Primeval Awareness (Ranger Feature)"));
+        pick.add(new Option("Primal Awareness (Ranger Feature)"));
+        a = Question.ask(pick, "Choose one at 3rd level");
+        list.add(a);
         //Hide in Plain sight v Nature's veil
+        pick = new ArrayList<Option>();
+        pick.add(new Option("Hide in Plain Sight (Ranger Feature)"));
+        pick.add(new Option("Nature's Veil (Ranger Feature)"));
+        a = Question.ask(pick, "Choose one at 10th level");
+        list.add(a);
 
 
         return list;
