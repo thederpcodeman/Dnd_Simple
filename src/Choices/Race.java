@@ -29,14 +29,14 @@ public class Race extends Choice {
         pick.add(new Option("Aasimar"));
         pick.add(new DualSource("Changeling", "Mordenkainen's Changeling (Changeling)","Eberron's Changeling (Changeling)"));//
         pick.add(new DualSource("Deep Gnome", "Mordenkainen's Deep Gnome (Deep Gnome)","Elemental Evil's Deep Gnome (Deep Gnome)"));//
-        pick.add(new Option("Duergar"));
+        pick.add(new DualSource("Duergar", "Mordenkainen's Duergar (Duergar)","SCAG's Duergar (Duergar)"));//
         pick.add(new Option("Eladrin"));
-        pick.add(new Option("Fairy"));
-        pick.add(new Option("Firbolg"));
-        pick.add(new Option("Genasi (Air)"));
-        pick.add(new Option("Genasi (Earth)"));
-        pick.add(new Option("Genasi (Fire)"));
-        pick.add(new Option("Genasi (Water)"));
+        pick.add(new Option("Fairy"));//
+        pick.add(new DualSource("Firbolg", "Mordenkainen's Firbolg (Firbolg)","Volo's Firbolg (Firbolg)"));//
+        pick.add(new DualSource("Genasi (Air)", "Mordenkainen's Air Genasi (Air Genasi)","Elemental Evil's Air Genasi (Air Genasi)"));//
+        pick.add(new DualSource("Genasi (Earth)", "Mordenkainen's Earth Genasi (Earth Genasi)","Elemental Evil's Earth Genasi (Earth Genasi)"));//
+        pick.add(new DualSource("Genasi (Fire)", "Mordenkainen's Fire Genasi (Fire Genasi)","Elemental Evil's Fire Genasi (Fire Genasi)"));//
+        pick.add(new DualSource("Genasi (Water)", "Mordenkainen's Water Genasi (Water Genasi)","Elemental Evil's Water Genasi (Water Genasi)"));//
         pick.add(new Option("Githyanki"));
         pick.add(new Option("Githzerai"));
         pick.add(new Option("Goliath"));
