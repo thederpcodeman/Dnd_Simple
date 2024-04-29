@@ -49,8 +49,8 @@ public class Race extends Choice {
         pick.add(new DualSource("Shadar-Kai", "Monsters of the Multiverse's Shadar-Kai (Shadar-Kai)","Tome of Foes's Shadar-Kai (Shadar-Kai)"));//
         pick.add(new DualSource("Tabaxi", "Mordenkainen's Tabaxi (Tabaxi)","Volo's Tabaxi (Tabaxi)"));//
         pick.add(new DualSource("Tortle", "Mordenkainen's Tortle (Tortle)","Tortle's Tortle, Tortle Squared if you will (Tortle)"));//
-        pick.add(new Option("Triton"));
-        pick.add(new Option("Verdan"));
+        pick.add(new DualSource("Triton", "Mordenkainen's Triton (Triton)","Volo's Triton (Triton)"));//
+        pick.add(new Option("Verdan"));//
 
         //Monstrous Lineages
         pick.add(new Option("Bugbear"));
