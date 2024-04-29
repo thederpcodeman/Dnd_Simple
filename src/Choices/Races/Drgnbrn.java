@@ -42,7 +42,7 @@ public class Drgnbrn extends Choice {
         }else if (i < 15 && i >= 10){
             pick.add(new Option("Gem Dragonborn (Dragonborn)"));
         }
-        a = Question.ask(pick, "Choose your Draconic Ancestors Color");
+        a = Question.ask(pick, "Choose your Subrace");
         list.add(a);
 
 

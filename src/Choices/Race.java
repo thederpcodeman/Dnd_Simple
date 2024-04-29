@@ -3,6 +3,7 @@ package src.Choices;
 import src.Choice;
 import src.Option;
 import src.Options.Races.Dragonborn;
+import src.Options.Races.Dwarf;
 import src.Question;
 
 import java.util.ArrayList;
@@ -15,7 +16,7 @@ public class Race extends Choice {
         ArrayList<Option> list = new ArrayList<Option>();
         ArrayList<Option> pick = new ArrayList<Option>();
         pick.add(new Dragonborn("Dragonborn"));
-        pick.add(new Option("Dwarf"));
+        pick.add(new Dwarf("Dwarf"));
         pick.add(new Option("Elf"));
         pick.add(new Option("Gnome"));
         pick.add(new Option("Half Elf"));
