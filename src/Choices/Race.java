@@ -58,7 +58,7 @@ public class Race extends Choice {
         pick.add(new Option("Goblin"));//
         pick.add(new Option("Grung"));//
         pick.add(new DualSource("Hobgoblin", "Mordenkainen's Hobgoblin (Hobgoblin)","Volo's Hobgoblin (Hobgoblin)"));//
-        pick.add(new Kobold("Kobold"));//____________________________________________________
+        pick.add(new Kobold("Kobold"));//
         pick.add(new DualSource("Lizardfolk", "Mordenkainen's Lizardfolk (Lizardfolk)","Volo's Lizardfolk (Lizardfolk)"));//
         pick.add(new DualSource("Minotaur", "Mordenkainen's Minotaur (Minotaur)","Ravnica's Minotaur / Theros's Minotaur (Minotaur)"));//
         pick.add(new DualSource("Orc", "Mordenkainen's Orc (Orc)","Volo's Orc / Eberron's Orc / Wildemount's Orc (Orc)"));//
@@ -77,6 +77,7 @@ public class Race extends Choice {
             pick.add(new Human("Human"));
             pick.add(new Human("Human"));
             pick.add(new Tiefling("Tiefling"));
+            pick.add(new Kobold("Kobold"));
         }
 
         Option a = Question.ask(pick, "Choose your race");
