@@ -34,22 +34,21 @@ public class BGs extends Choice {
                         new Option ("Faith. I trust that my deity will guide my actions. I have faith that if I work hard, things will go well. (Lawful)"),
                         new Option ("Aspiration. I seek to prove myself worthy of my god's favor by matching my actions against their teachings. (Any)"),
                         new Option ("Other."))),
-
                 new ArrayList<>(Arrays.asList(//Bonds
                         new Option ("I would die to recover an ancient relic of my faith that was lost long ago."),
                         new Option ("I will someday get revenge on the corrupt temple hierarchy who branded me a heretic."),
                         new Option ("I owe my life to the priest who took me in when my parents died."),
                         new Option ("Everything I do is for the common people."),
                         new Option ("I will do anything to protect the temple where I served."),
-                        new Option ("I will do anything to protect the temple where I served."),
+                        new Option ("I seek to preserve a sacred text that my enemies consider heretical and seek to destroy."),
                         new Option ("Other."))),
                 new ArrayList<>(Arrays.asList(//Flaws
-                        new Option ("I idolize a particular hero of my faith, and constantly refer to that person's deeds and example."),
-                        new Option ("I idolize a particular hero of my faith, and constantly refer to that person's deeds and example."),
-                        new Option ("I idolize a particular hero of my faith, and constantly refer to that person's deeds and example."),
-                        new Option ("I idolize a particular hero of my faith, and constantly refer to that person's deeds and example."),
-                        new Option ("I idolize a particular hero of my faith, and constantly refer to that person's deeds and example."),
-                        new Option ("I will do anything to protect the temple where I served."),
+                        new Option ("I judge others harshly, and myself even more severely."),
+                        new Option ("I put too much trust in those who wield power within my temple's hierarchy."),
+                        new Option ("My piety sometimes leads me to blindly trust those that profess faith in my god."),
+                        new Option ("I am inflexible in my thinking."),
+                        new Option ("I am suspicious of strangers and expect the worst of them."),
+                        new Option ("Once I pick a goal, I become obsessed with it to the detriment of everything else in my life."),
                         new Option ("Other.")))));
         pick.add(new Option("Anthropologist"));
         pick.add(new Option("Archaeologist"));
