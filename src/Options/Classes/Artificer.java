@@ -1,10 +1,7 @@
 package src.Options.Classes;
 
 import src.Choice;
-import src.Choices.Background;
-import src.Choices.CClass;
 import src.Choices.Classes.ArtSub;
-import src.Choices.Race;
 import src.Option;
 
 import java.util.ArrayList;

@@ -1,7 +1,7 @@
 package src.Options;
 
 import src.Choice;
-import src.Choices.Background;
+import src.Choices.BGs;
 import src.Choices.CClass;
 import src.Choices.Race;
 import src.Option;
@@ -16,7 +16,7 @@ public class Yes extends Option{
         ArrayList<Option> list = new ArrayList<Option>();
         Choice c = new CClass();
         Choice r = new Race();
-        Choice b = new Background();
+        Choice b = new BGs();
         for (Option i : r.run()){
             list.add(i);
         }
