@@ -50,8 +50,72 @@ public class BGs extends Choice {
                         new Option ("I am suspicious of strangers and expect the worst of them."),
                         new Option ("Once I pick a goal, I become obsessed with it to the detriment of everything else in my life."),
                         new Option ("Other.")))));
-        pick.add(new Option("Anthropologist"));
-        pick.add(new Option("Archaeologist"));
+        pick.add(new BackGround("Anthropologist",
+                new ArrayList<>(Arrays.asList(//Traits
+                        new Option ("I prefer the company of those who aren't like me, including people of other races."),
+                        new Option ("I'm a stickler when it comes to observing proper etiquette and local customs."),
+                        new Option ("I would rather observe than meddle."),
+                        new Option ("By living among violent people, I have become desensitized to violence."),
+                        new Option ("I would risk life and limb to discover a new culture or unravel the secrets of a dead one."),
+                        new Option ("When I arrive at a new settlement for the first time, I must learn all its customs."),
+                        new Option ("Other."))),
+                new ArrayList<>(Arrays.asList(//Ideals
+                        new Option ("Discovery. I want to be the first person to discover a lost culture. (Any)"),
+                        new Option ("Distance. One must not interfere with the affairs of another culture – even one in need of aid. (Lawful)"),
+                        new Option ("Knowledge. By understanding other races and cultures, we learn to understand ourselves. (Any)"),
+                        new Option ("Power. Common people crave strong leadership, and I do my utmost to provide it. (Lawful)"),
+                        new Option ("Protection. I must do everything possible to save a society facing extinction. (Good)"),
+                        new Option ("Indifferent. Life is cruel. What's the point in saving people if they're going to die anyway? (Chaotic)"),
+                        new Option ("Other."))),
+                new ArrayList<>(Arrays.asList(//Bonds
+                        new Option ("My mentor gave me a journal filled with lore and wisdom. Losing it would devastate me."),
+                        new Option ("Having lived among the people of a primeval tribe or clan, I long to return and see how they are faring."),
+                        new Option ("Years ago, tragedy struck the members of an isolated society I befriended, and I will honor them."),
+                        new Option ("I want to learn more about a particular humanoid culture that fascinates me."),
+                        new Option ("I seek to avenge a clan, tribe, kingdom, or empire that was wiped out."),
+                        new Option ("I have a trinket that I believe is the key to finding a long-lost society."),
+                        new Option ("Other."))),
+                new ArrayList<>(Arrays.asList(//Flaws
+                        new Option ("Boats make me seasick."),
+                        new Option ("I talk to myself, and I don't make friends easily."),
+                        new Option ("I believe that I'm intellectually superior to people from other cultures and have much to teach them."),
+                        new Option ("I've picked up some unpleasant habits living among races such as goblins, lizardfolk, or orcs."),
+                        new Option ("I complain about everything."),
+                        new Option ("I wear a tribal mask and never take it off."),
+                        new Option ("Other.")))));
+        pick.add(new BackGround("Archaeologist",
+                new ArrayList<>(Arrays.asList(//Traits
+                        new Option (""),
+                        new Option (""),
+                        new Option (""),
+                        new Option (""),
+                        new Option (""),
+                        new Option (""),
+                        new Option ("Other."))),
+                new ArrayList<>(Arrays.asList(//Ideals
+                        new Option (""),
+                        new Option (""),
+                        new Option (""),
+                        new Option (""),
+                        new Option (""),
+                        new Option (""),
+                        new Option ("Other."))),
+                new ArrayList<>(Arrays.asList(//Bonds
+                        new Option (""),
+                        new Option (""),
+                        new Option (""),
+                        new Option (""),
+                        new Option (""),
+                        new Option (""),
+                        new Option ("Other."))),
+                new ArrayList<>(Arrays.asList(//Flaws
+                        new Option (""),
+                        new Option (""),
+                        new Option (""),
+                        new Option (""),
+                        new Option (""),
+                        new Option (""),
+                        new Option ("Other.")))));
         pick.add(new Option("Charlatan"));
         pick.add(new Option("City Watch"));
         pick.add(new Option("Clan Crafter"));
