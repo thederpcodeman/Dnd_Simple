@@ -62,7 +62,7 @@ public class Race extends Choice {
         pick.add(new DualSource("Lizardfolk", "Mordenkainen's Lizardfolk (Lizardfolk)","Volo's Lizardfolk (Lizardfolk)"));//
         pick.add(new DualSource("Minotaur", "Mordenkainen's Minotaur (Minotaur)","Ravnica's Minotaur / Theros's Minotaur (Minotaur)"));//
         pick.add(new DualSource("Orc", "Mordenkainen's Orc (Orc)","Volo's Orc / Eberron's Orc / Wildemount's Orc (Orc)"));//
-        pick.add(new Option("Shifter"));//___________________________________________________
+        pick.add(new Shifter("Shifter"));//
         pick.add(new DualSource("Yuan-Ti", "Mordenkainen's Yuan-Ti (Yuan-Ti)","Volo's Yuan-Ti (Yuan-Ti)"));//
 
         //Randomizer probiblity modification

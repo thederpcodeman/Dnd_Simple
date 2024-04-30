@@ -6,8 +6,8 @@ import src.Question;
 
 import java.util.ArrayList;
 
-public class Shifter extends Choice {
-    public Shifter(){
+public class Shftr extends Choice {
+    public Shftr(){
         super();
     }
     public ArrayList<Option> run(){
@@ -21,10 +21,21 @@ public class Shifter extends Choice {
         if (pick.indexOf(a) == 0){
             pick = new ArrayList<Option>();
 
-            pick.add(new Option("Necrotic Shroud (Celestial Revelation)"));
-            pick.add(new Option("Radiant Consumption (Celestial Revelation)"));
-            pick.add(new Option("Radiant Soul (Celestial Revelation)"));
-            a = Question.ask(pick, "Choose your Celestial Revelation");
+            pick.add(new Option("Werebear (Mordenkainen's Shifter)"));
+            pick.add(new Option("Wereboar (Mordenkainen's Shifter)"));
+            pick.add(new Option("Wererat (Mordenkainen's Shifter)"));
+            pick.add(new Option("Weretiger (Mordenkainen's Shifter)"));
+            pick.add(new Option("Werewolf (wolflike) (Mordenkainen's Shifter)"));
+            pick.add(new Option("Werewolf (doglike) (Mordenkainen's Shifter)"));
+            a = Question.ask(pick, "Choose your Lycanthrope Ancestor");
+            list.add(a);
+            pick = new ArrayList<Option>();
+
+            pick.add(new Option("Beasthide (Shifting)"));
+            pick.add(new Option("Longtooth (Shifting)"));
+            pick.add(new Option("Swiftstride (Shifting)"));
+            pick.add(new Option("Wildhunt (Shifting)"));
+            a = Question.ask(pick, "Choose your Shifting Benefit");
             list.add(a);
         }else {
             pick = new ArrayList<Option>();
