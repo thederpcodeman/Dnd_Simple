@@ -25,27 +25,27 @@ public class Tflng extends Choice {
         Option a = Question.ask(pick, "Choose your Bloodline");
         list.add(a);
         pick = new ArrayList<Option>();
-        pick.add(new Option(""));
+        pick.add(new Option("[Standard Tiefling]"));
         pick.add(new Option("Feral (Variant Tiefling)"));
         if (Question.rand){
-            pick.add(new Option(""));
-            pick.add(new Option(""));
-            pick.add(new Option(""));
+            pick.add(new Option("[Standard Tiefling]"));
+            pick.add(new Option("[Standard Tiefling]"));
+            pick.add(new Option("[Standard Tiefling]"));
         }
         a = Question.ask(pick, "Are you using Variant Rules Feral Tiefling (blank is not using the Variant rule)");
         list.add(a);
         pick = new ArrayList<Option>();
-        pick.add(new Option(""));
+        pick.add(new Option("[Standard Tiefling]"));
         pick.add(new Option("Devil's Tongue (Variant Tiefling)"));
         pick.add(new Option("Hellfire (Variant Tiefling)"));
         pick.add(new Option("Winged (Variant Tiefling)"));
         if (Question.rand){
-            pick.add(new Option(""));
-            pick.add(new Option(""));
-            pick.add(new Option(""));
-            pick.add(new Option(""));
-            pick.add(new Option(""));
-            pick.add(new Option(""));
+            pick.add(new Option("[Standard Tiefling]"));
+            pick.add(new Option("[Standard Tiefling]"));
+            pick.add(new Option("[Standard Tiefling]"));
+            pick.add(new Option("[Standard Tiefling]"));
+            pick.add(new Option("[Standard Tiefling]"));
+            pick.add(new Option("[Standard Tiefling]"));
         }
         a = Question.ask(pick, "Are you using Other Variant Rules (blank is not using Variant rules)");
         list.add(a);
