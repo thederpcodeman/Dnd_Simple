@@ -26,11 +26,11 @@ public class Race extends Choice {
 
         //Exotic Lineages
         pick.add(new DualSource("Aarakocra", "Mordenkainen's Aarakocra (Aarakocra)","Elemental Evil's Aarakocra (Aarakocra)"));//
-        pick.add(new Option("Aasimar"));
+        pick.add(new Option("Aasimar"));//_____________________________________________________________________
         pick.add(new DualSource("Changeling", "Mordenkainen's Changeling (Changeling)","Eberron's Changeling (Changeling)"));//
         pick.add(new DualSource("Deep Gnome", "Mordenkainen's Deep Gnome (Deep Gnome)","Elemental Evil's Deep Gnome (Deep Gnome)"));//
         pick.add(new DualSource("Duergar", "Mordenkainen's Duergar (Duergar)","SCAG's Duergar (Duergar)"));//
-        pick.add(new Option("Eladrin"));
+        pick.add(new Option("Eladrin"));//_____________________________________________________________________
         pick.add(new Option("Fairy"));//
         pick.add(new DualSource("Firbolg", "Mordenkainen's Firbolg (Firbolg)","Volo's Firbolg (Firbolg)"));//
         pick.add(new DualSource("Genasi (Air)", "Mordenkainen's Air Genasi (Air Genasi)","Elemental Evil's Air Genasi (Air Genasi)"));//
@@ -56,16 +56,16 @@ public class Race extends Choice {
         pick.add(new Option("Bugbear"));//
         pick.add(new DualSource("Centar", "Mordenkainen's Centar (Centar)","Ravnica's Centar / Theros's Centar (Centar)"));//
         pick.add(new Option("Goblin"));//
-        pick.add(new Option("Grung"));
-        pick.add(new Option("Hobgoblin"));
-        pick.add(new Option("Kobold"));
-        pick.add(new Option("Lizardfolk"));
-        pick.add(new Option("Minotaur"));
-        pick.add(new Option("Orc"));
-        pick.add(new Option("Shifter"));
-        pick.add(new Option("Yuan-Ti"));
+        pick.add(new Option("Grung"));//
+        pick.add(new DualSource("Hobgoblin", "Mordenkainen's Hobgoblin (Hobgoblin)","Volo's Hobgoblin (Hobgoblin)"));//
+        pick.add(new Option("Kobold"));//____________________________________________________
+        pick.add(new DualSource("Lizardfolk", "Mordenkainen's Lizardfolk (Lizardfolk)","Volo's Lizardfolk (Lizardfolk)"));//
+        pick.add(new DualSource("Minotaur", "Mordenkainen's Minotaur (Minotaur)","Ravnica's Minotaur / Theros's Minotaur (Minotaur)"));//
+        pick.add(new DualSource("Orc", "Mordenkainen's Orc (Orc)","Volo's Orc / Eberron's Orc / Wildemount's Orc (Orc)"));//
+        pick.add(new Option("Shifter"));//___________________________________________________
+        pick.add(new DualSource("Yuan-Ti", "Mordenkainen's Yuan-Ti (Yuan-Ti)","Volo's Yuan-Ti (Yuan-Ti)"));//
 
-        //Randomizer probiblity mod
+        //Randomizer probiblity modification
         if (Question.rand){
             pick.add(new Dragonborn("Dragonborn"));
             pick.add(new Dwarf("Dwarf"));
