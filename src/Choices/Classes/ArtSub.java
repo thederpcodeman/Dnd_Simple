@@ -15,7 +15,7 @@ public class ArtSub  extends Choice {
         ArrayList<Option> pick = new ArrayList<Option>();
         pick.add(new Option("Alchemist (Artificer)"));
         pick.add(new Option("Armorer (Artificer)"));
-        pick.add(new Option("Artistic (Artificer)"));
+        pick.add(new Option("Artillerist (Artificer)"));
         pick.add(new Option("Battle Smith (Artificer)"));
         Option a = Question.ask(pick, "Choose your Artificer Specialty");
         list.add(a);
