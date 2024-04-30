@@ -35,7 +35,7 @@ public class Main {
 
         for (Option i : listfin){
             System.out.println(i.name);
-            Thread.sleep(5);
+            Thread.sleep(250);
         }
 
 
