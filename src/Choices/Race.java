@@ -26,7 +26,7 @@ public class Race extends Choice {
 
         //Exotic Lineages
         pick.add(new DualSource("Aarakocra", "Mordenkainen's Aarakocra (Aarakocra)","Elemental Evil's Aarakocra (Aarakocra)"));//
-        pick.add(new Option("Aasimar"));//_____________________________________________________________________
+        pick.add(new Aasimar("Aasimar"));//_____________________________________________________________________
         pick.add(new DualSource("Changeling", "Mordenkainen's Changeling (Changeling)","Eberron's Changeling (Changeling)"));//
         pick.add(new DualSource("Deep Gnome", "Mordenkainen's Deep Gnome (Deep Gnome)","Elemental Evil's Deep Gnome (Deep Gnome)"));//
         pick.add(new DualSource("Duergar", "Mordenkainen's Duergar (Duergar)","SCAG's Duergar (Duergar)"));//
