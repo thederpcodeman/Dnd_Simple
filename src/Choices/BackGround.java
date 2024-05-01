@@ -11,9 +11,15 @@ public class BackGround extends Option {
     ArrayList<Option> i;
     ArrayList<Option> b;
     ArrayList<Option> f;
+    ArrayList<ArrayList<Option>> cs;
+
     public BackGround(String name, ArrayList<Option> Traits, ArrayList<Option> Ideals, ArrayList<Option> Bonds, ArrayList<Option> Flaws){
         super(name);
-        t = Traits; i = Ideals; b = Bonds; f = Flaws;
+        t = Traits; i = Ideals; b = Bonds; f = Flaws; cs = new ArrayList<ArrayList<Option>>();
+    }
+    public BackGround(String name, ArrayList<Option> Traits, ArrayList<Option> Ideals, ArrayList<Option> Bonds, ArrayList<Option> Flaws, ArrayList<ArrayList<Option>> Choices){
+        super(name);
+        t = Traits; i = Ideals; b = Bonds; f = Flaws; cs = Choices;
     }
     public ArrayList<Option> run(){
         ArrayList<Option> list = new ArrayList<Option>();
@@ -33,6 +39,11 @@ public class BackGround extends Option {
         a = Question.ask(pick, "Choose a Flaw");
         a.name = a.name + " (Flaw)";
         list.add(a);
+        for (ArrayList<Option> i : cs){
+            pick = i;
+            a = Question.ask(pick, "Choose an option");
+            list.add(a);
+        }
 
 
         return list;
