@@ -1389,7 +1389,10 @@ public class BGs extends Choice {
                         new Option (""),
                         new Option (""),
                         new Option (""),
-                        new Option ("Other.")))));
+                        new Option ("Other."))),
+                new ArrayList<ArrayList<Option>>(Arrays.asList(new ArrayList<Option>(Arrays.asList(
+                        new Option (" (Seas Influence)"),
+                        new Option ("Other (Seas Influence)")))))));
         pick.add(new BackGround("Smuggler",
                 new ArrayList<>(Arrays.asList(//Traits
                         new Option (""),
@@ -1422,7 +1425,10 @@ public class BGs extends Choice {
                         new Option (""),
                         new Option (""),
                         new Option (""),
-                        new Option ("Other.")))));
+                        new Option ("Other."))),
+                new ArrayList<ArrayList<Option>>(Arrays.asList(new ArrayList<Option>(Arrays.asList(
+                        new Option (" (Claim to Fame)"),
+                        new Option ("Other (Claim to Fame)")))))));
         pick.add(new BackGround("Soldier",
                 new ArrayList<>(Arrays.asList(//Traits
                         new Option (""),
@@ -1455,41 +1461,11 @@ public class BGs extends Choice {
                         new Option (""),
                         new Option (""),
                         new Option (""),
-                        new Option ("Other.")))));
-        pick.add(new BackGround("Spy",
-                new ArrayList<>(Arrays.asList(//Traits
-                        new Option (""),
-                        new Option (""),
-                        new Option (""),
-                        new Option (""),
-                        new Option (""),
-                        new Option (""),
                         new Option ("Other."))),
-                new ArrayList<>(Arrays.asList(//Ideals
-                        new Option (""),
-                        new Option (""),
-                        new Option (""),
-                        new Option (""),
-                        new Option (""),
-                        new Option (""),
-                        new Option ("Other."))),
-                new ArrayList<>(Arrays.asList(//Bonds
-                        new Option (""),
-                        new Option (""),
-                        new Option (""),
-                        new Option (""),
-                        new Option (""),
-                        new Option (""),
-                        new Option ("Other."))),
-                new ArrayList<>(Arrays.asList(//Flaws
-                        new Option (""),
-                        new Option (""),
-                        new Option (""),
-                        new Option (""),
-                        new Option (""),
-                        new Option (""),
-                        new Option ("Other.")))));
-        pick.add(new BackGround("Urban Bounty Hunter",
+                new ArrayList<ArrayList<Option>>(Arrays.asList(new ArrayList<Option>(Arrays.asList(
+                        new Option (" (Specialty)"),
+                        new Option ("Other (Specialty)")))))));
+        pick.add(new BackGround("Urban Bounty Hunter",//Criminal
                 new ArrayList<>(Arrays.asList(//Traits
                         new Option (""),
                         new Option (""),
