@@ -1258,37 +1258,27 @@ public class BGs extends Choice {
                         new Option ("PHB table (Trinket)")))))));
         pick.add(new BackGround("Rune Carver",
                 new ArrayList<>(Arrays.asList(//Traits
-                        new Option (""),
-                        new Option (""),
-                        new Option (""),
-                        new Option (""),
-                        new Option (""),
-                        new Option (""),
+                        new Option ("Is it practical to learn an ancient language that is rarely spoken? No. But is it fun? Very."),
+                        new Option ("I learned one of my ancestors was a lauded rune carver whose story was lost to time. I seek to rekindle that legacy."),
+                        new Option ("The old, traditional markings of runecraft look so boring. Why not give my runes some flair?"),
+                        new Option ("In my studies of runes, I strive to understand how great civilizations of the past fell, so that I may prevent it from happening to societies of the present."),
+                        new Option ("Life may be a whirlwind of chaos around me, but whenever I create my runes, I feel at peace."),
+                        new Option ("My brain struggles to process ink words written on paper, but the tactile feeling of carved runes makes my mind sing."),
                         new Option ("Other."))),
                 new ArrayList<>(Arrays.asList(//Ideals
-                        new Option (""),
-                        new Option (""),
-                        new Option (""),
-                        new Option (""),
-                        new Option (""),
-                        new Option (""),
                         new Option ("Other."))),
                 new ArrayList<>(Arrays.asList(//Bonds
-                        new Option (""),
-                        new Option (""),
-                        new Option (""),
-                        new Option (""),
-                        new Option (""),
-                        new Option (""),
                         new Option ("Other."))),
                 new ArrayList<>(Arrays.asList(//Flaws
-                        new Option (""),
-                        new Option (""),
-                        new Option (""),
-                        new Option (""),
-                        new Option (""),
-                        new Option (""),
-                        new Option ("Other.")))));
+                        new Option ("Other."))),
+                new ArrayList<ArrayList<Option>>(Arrays.asList(new ArrayList<Option>(Arrays.asList(
+                        new Option ("You inscribe runes in wax or clay with a fine metal needle. (Rune Style)"),
+                        new Option ("You whittle pieces of wood into small figurines you mark with runes. (Rune Style)"),
+                        new Option ("You engrave runes onto glass beads and thread them onto necklaces and bracelets. (Rune Style)"),
+                        new Option ("You stitch your runes into the hems of clothing. (Rune Style)"),
+                        new Option ("You carve runes on a set of animal bones you can throw in different formations. (Rune Style)"),
+                        new Option ("You draw your runes into candles, melting the wax to smooth over the engravings. (Rune Style)"),
+                        new Option ("Other (Rune Style)")))))));
         pick.add(new BackGround("Sage",
                 new ArrayList<>(Arrays.asList(//Traits
                         new Option (""),
