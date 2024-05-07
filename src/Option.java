@@ -11,10 +11,16 @@ public class Option {
         HB = false;
         UA = false;
     }
-    public Option(String n, Boolean h, Boolean u){
-        name = n;
+    public Option(String n, Boolean u, Boolean h){
         HB = h;
         UA = u;
+        if (UA){
+            n += "(UA)";
+        }
+        if (HB){
+            n += "(Homebrew)";
+        }
+        name = n;
     }
     public ArrayList<Option> run(){
         ArrayList<Option> list = new ArrayList<Option>();

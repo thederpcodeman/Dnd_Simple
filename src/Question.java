@@ -18,6 +18,9 @@ public class Question {
         }else{
             l = l1;
         }
+        if (l.size() == 0){
+            return (new Option("Error: no legal options. :("));
+        }
 
         if (rand){
             return l.get((int) (Math.random() * l.size()));
