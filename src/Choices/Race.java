@@ -65,6 +65,32 @@ public class Race extends Choice {
         pick.add(new Shifter("Shifter"));//
         pick.add(new DualSource("Yuan-Ti", "Mordenkainen's Yuan-Ti (Yuan-Ti)","Volo's Yuan-Ti (Yuan-Ti)"));//
 
+        //UA
+        pick.add(new Option("Kender", true, false));
+        pick.add(new Option("Kalashtar", true, false));
+        pick.add(new Option("Warforged", true, false));
+        pick.add(new Option("Aetherborn", true, false));
+        pick.add(new Option("Aven", true, false));
+        pick.add(new Option("Khenra", true, false));
+        pick.add(new Option("Kor", true, false));
+        pick.add(new Option("Merfolk", true, false));
+        pick.add(new Option("Naga", true, false));
+        pick.add(new Option("Siren", true, false));
+        pick.add(new Option("Vampire", true, false));
+        pick.add(new Option("Dhamphir", true, false));
+        pick.add(new Option("Hexblood", true, false));
+        pick.add(new Option("Reborn", true, false));
+        pick.add(new Option("Loxodon", true, false));
+        pick.add(new Option("Simic Hybrid", true, false));
+        pick.add(new Option("Vedalken", true, false));
+        pick.add(new Option("Astral Elf", true, false));
+        pick.add(new Option("Autognome", true, false));
+        pick.add(new Option("Giff", true, false));
+        pick.add(new Option("Hadozee", true, false));
+        pick.add(new Option("Plasmoid", true, false));
+        pick.add(new Option("Thri-kreen", true, false));
+        pick.add(new Option("Leonin", true, false));
+
         //Randomizer probiblity modification
         if (Question.rand){
             pick.add(new Dragonborn("Dragonborn"));

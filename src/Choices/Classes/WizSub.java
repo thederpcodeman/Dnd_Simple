@@ -26,6 +26,7 @@ public class WizSub extends Choice {
         pick.add(new Option("The Order of Scribes (Wizard)"));
         pick.add(new Option("Transmutation (Wizard)"));
         pick.add(new Option("War Magic (Wizard)"));
+        pick.add(new Option("Rune Crafter (Wizard)", true, false));
         Option a = Question.ask(pick, "Choose your Arcane Tradition");
         list.add(a);
 

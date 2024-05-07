@@ -27,6 +27,10 @@ public class ClrcSub extends Choice {
         pick.add(new Option("Trickery Domain (Cleric)"));
         pick.add(new Option("Twilight Domain (Cleric)"));
         pick.add(new Option("War Domain (Cleric)"));
+        pick.add(new Option("Ambition (Cleric)",true, false));
+        pick.add(new Option("Solidarity (Cleric)",true, false));
+        pick.add(new Option("Strength Domain (Cleric)",true, false));
+        pick.add(new Option("Zeal Domain (Cleric)",true, false));
         pick.add(new Option("Fate Domain (Cleric)",true, false));
         Option a = Question.ask(pick, "Choose your Divine Domain");
         list.add(a);

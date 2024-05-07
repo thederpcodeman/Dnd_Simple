@@ -37,6 +37,9 @@ public class FghtSub extends Choice {
         pick.add(new Option("Thrown Weapon Fighting (Fighting Style)"));
         pick.add(new Option("Two Weapon Fighting (Fighting Style)"));
         pick.add(new Option("Unarmed Fighting (Fighting Style)"));
+        pick.add(new Option("Close Quarters Shooter (Fighting Style)", true, false));
+        pick.add(new Option("Mariner (Fighting Style)", true, false));
+        pick.add(new Option("Tunnel Fighter (Fighting Style)", true, false));
 
         a = Question.ask(pick, "Choose your Fighter Fighting Style");
         list.add(a);

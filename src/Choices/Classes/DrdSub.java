@@ -20,6 +20,7 @@ public class DrdSub extends Choice {
         pick.add(new Option("Spores (Druid)"));
         pick.add(new Option("Stars (Druid)"));
         pick.add(new Option("Wildfire (Druid)"));
+        pick.add(new Option("Primeval (Druid)", true, false));
         Option a = Question.ask(pick, "Choose your Druid Circle");
         list.add(a);
 

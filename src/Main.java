@@ -14,7 +14,7 @@ public class Main {
         Scanner sc = new Scanner(System.in);
         System.out.println("Would you like to randomize (true/false)");
         Question.rand = sc.nextBoolean();
-        System.out.println("Would you like to enable select Unearthed Arcana features (true/false)");
+        System.out.println("Would you like to enable select Unearthed Arcana / Potentially Setting Specific features (These features will be called UA even if they are not) (true/false)");
         Question.UA = sc.nextBoolean();
         System.out.println("Would you like to enable select Homebrew features (true/false)");
         Question.HB = sc.nextBoolean();
