@@ -14,6 +14,10 @@ public class Main {
         Scanner sc = new Scanner(System.in);
         System.out.println("Would you like to randomize (true/false)");
         Question.rand = sc.nextBoolean();
+        System.out.println("Would you like to Use some UA features (true/false)");
+        Question.UA = sc.nextBoolean();
+        System.out.println("Would you like to Use some Homebrew features (true/false)");
+        Question.HB = sc.nextBoolean();
         Charicter guy = new Charicter();
         ArrayList<Option> list = guy.run();
         ArrayList<Option> list2 = new ArrayList<>();
