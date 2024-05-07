@@ -3,6 +3,7 @@ package src;
 import src.Choices.Charicter;
 
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.Scanner;
 
 // Press Shift twice to open the Search Everywhere dialog and type `show whitespaces`,
@@ -35,12 +36,12 @@ public class Main {
             }
             list2 = new ArrayList<>();
         }
-
-
         for (Option i : listfin){
             System.out.println(i.name);
             Thread.sleep(250);
         }
+
+
 
 
     }

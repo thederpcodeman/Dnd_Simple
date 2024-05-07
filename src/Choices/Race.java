@@ -66,30 +66,30 @@ public class Race extends Choice {
         pick.add(new DualSource("Yuan-Ti", "Mordenkainen's Yuan-Ti (Yuan-Ti)","Volo's Yuan-Ti (Yuan-Ti)"));//
 
         //UA
-        pick.add(new Option("Kender", true, false));
-        pick.add(new Option("Kalashtar", true, false));
-        pick.add(new Option("Warforged", true, false));
-        pick.add(new Option("Aetherborn", true, false));
-        pick.add(new Option("Aven", true, false));
-        pick.add(new Option("Khenra", true, false));
-        pick.add(new Option("Kor", true, false));
-        pick.add(new Option("Merfolk", true, false));
-        pick.add(new Option("Naga", true, false));
-        pick.add(new Option("Siren", true, false));
-        pick.add(new Option("Vampire", true, false));
-        pick.add(new Option("Dhamphir", true, false));
-        pick.add(new Option("Hexblood", true, false));
-        pick.add(new Option("Reborn", true, false));
-        pick.add(new Option("Loxodon", true, false));
-        pick.add(new Option("Simic Hybrid", true, false));
-        pick.add(new Option("Vedalken", true, false));
-        pick.add(new Option("Astral Elf", true, false));
-        pick.add(new Option("Autognome", true, false));
-        pick.add(new Option("Giff", true, false));
-        pick.add(new Option("Hadozee", true, false));
-        pick.add(new Option("Plasmoid", true, false));
-        pick.add(new Option("Thri-kreen", true, false));
-        pick.add(new Option("Leonin", true, false));
+        pick.add(new Option("Kender (Dragonlance)", true, false));
+        pick.add(new Option("Kalashtar (Eberron)", true, false));
+        pick.add(new Option("Warforged (Eberron)", true, false));
+        pick.add(new Option("Aetherborn (Plane Shift)", true, false));
+        pick.add(new Option("Aven (Plane Shift)", true, false));
+        pick.add(new Option("Khenra (Plane Shift)", true, false));
+        pick.add(new Option("Kor (Plane Shift)", true, false));
+        pick.add(new Option("Merfolk (Plane Shift)", true, false));
+        pick.add(new Option("Naga (Plane Shift)", true, false));
+        pick.add(new Option("Siren (Plane Shift)", true, false));
+        pick.add(new Option("Vampire (Plane Shift)", true, false));
+        pick.add(new Option("Dhamphir (Ravenloft)", true, false));
+        pick.add(new Option("Hexblood (Ravenloft)", true, false));
+        pick.add(new Option("Reborn (Ravenloft)", true, false));
+        pick.add(new Option("Loxodon (Ravnica)", true, false));
+        pick.add(new Option("Simic Hybrid (Ravnica)", true, false));
+        pick.add(new Option("Vedalken (Ravnica)", true, false));
+        pick.add(new Option("Astral Elf (Spelljammer)", true, false));
+        pick.add(new Option("Autognome (Spelljammer)", true, false));
+        pick.add(new Option("Giff (Spelljammer)", true, false));
+        pick.add(new Option("Hadozee (Spelljammer)", true, false));
+        pick.add(new Option("Plasmoid (Spelljammer)", true, false));
+        pick.add(new Option("Thri-kreen (Spelljammer)", true, false));
+        pick.add(new Option("Leonin (Theros)", true, false));
 
         //Randomizer probiblity modification
         if (Question.rand){
