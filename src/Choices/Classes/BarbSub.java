@@ -21,15 +21,15 @@ public class BarbSub extends Choice {
         pick.add(new Option("Berserker (Barbarian)"));//
         pick.add(new Option("Giant (Barbarian)"));//
         pick.add(new Subchoice("Storm Herald (Barbarian)", new ArrayList<>(Arrays.asList(new ArrayList<>(Arrays.asList(
-                new Option ("Desert"),
-                new Option ("Sea"),
-                new Option ("Tundra")))))));
+                new Option ("Desert (Storm Aura)"),
+                new Option ("Sea (Storm Aura)"),
+                new Option ("Tundra (Storm Aura)")))))));
         pick.add(new Subchoice("Totem Warrior (Barbarian)", new ArrayList<>(Arrays.asList(new ArrayList<>(Arrays.asList(
-                new Option ("Bear"),
-                new Option ("Eagle"),
-                new Option ("Elk"),
-                new Option ("Tiger"),
-                new Option ("Wolf")))))));
+                new Option ("Bear (Totem Warrior)"),
+                new Option ("Eagle (Totem Warrior)"),
+                new Option ("Elk (Totem Warrior)"),
+                new Option ("Tiger (Totem Warrior)"),
+                new Option ("Wolf (Totem Warrior)")))))));
         pick.add(new Option("Wild Magic (Barbarian)"));//
         pick.add(new Option("Zealot (Barbarian)"));//
 
