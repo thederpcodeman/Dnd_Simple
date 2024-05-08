@@ -1,4 +1,4 @@
-package src.Choices;
+package src.Options;
 
 import src.Choice;
 import src.Option;
