@@ -2,9 +2,11 @@ package src.Choices.Classes;
 
 import src.Choice;
 import src.Option;
+import src.Options.Subchoice;
 import src.Question;
 
 import java.util.ArrayList;
+import java.util.Arrays;
 
 public class WlkSub extends Choice {
     public WlkSub(){
@@ -18,6 +20,11 @@ public class WlkSub extends Choice {
         pick.add(new Option("Fathomless (Warlock)"));
         pick.add(new Option("Fiend (Warlock)"));
         pick.add(new Option("Genie (Warlock)"));
+        pick.add(new Subchoice("Genie (Warlock)", new ArrayList<>(Arrays.asList(new ArrayList<>(Arrays.asList(
+                new Option ("Dao (Genie)"),
+                new Option ("Djinni (Genie)"),
+                new Option ("Efreeti (Genie)"),
+                new Option ("Marid (Genie)")))))));
         pick.add(new Option("Great Old One (Warlock)"));
         pick.add(new Option("Hexblade (Warlock)"));
         pick.add(new Option("Undead (Warlock)"));
