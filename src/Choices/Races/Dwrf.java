@@ -15,6 +15,8 @@ public class Dwrf extends Choice {
         ArrayList<Option> pick = new ArrayList<Option>();
         pick.add(new Option("Hill Dwarf (Dwarf)"));
         pick.add(new Option("Mountain Dwarf (Dwarf)"));
+        pick.add(new Option("Mark of Warding (Eberron) (Dwarf)", true, false));
+        pick.add(new Option("Plane Shift: Kaladesh (Dwarf)", true, false));
         Option a = Question.ask(pick, "Choose your Subrace");
         list.add(a);
 
