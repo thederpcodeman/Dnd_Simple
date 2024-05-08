@@ -15,6 +15,7 @@ public class Gnme extends Choice {
         ArrayList<Option> pick = new ArrayList<Option>();
         pick.add(new Option("Forest Gnome (Gnome)"));
         pick.add(new Option("Rock Gnome (Gnome)"));
+        pick.add(new Option("Mark of Scribing (eberron) (Gnome)", true, false));
         Option a = Question.ask(pick, "Choose your Subrace");
         list.add(a);
 
