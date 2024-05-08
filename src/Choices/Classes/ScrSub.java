@@ -2,9 +2,11 @@ package src.Choices.Classes;
 
 import src.Choice;
 import src.Option;
+import src.Options.Subchoice;
 import src.Question;
 
 import java.util.ArrayList;
+import java.util.Arrays;
 
 public class ScrSub extends Choice {
     public ScrSub(){
@@ -16,13 +18,17 @@ public class ScrSub extends Choice {
         pick.add(new Option("Aberrant Mind (Sorcerer)"));
         pick.add(new Option("Clockwork Soul (Sorcerer)"));
         pick.add(new Option("Draconic Bloodline (Sorcerer)"));
-        pick.add(new Option("Divine Soul (Sorcerer)"));
+        pick.add(new Subchoice("Divine Soul (Sorcerer)", new ArrayList<>(Arrays.asList(new ArrayList<>(Arrays.asList(
+                new Option ("Good (Affinity)"),
+                new Option ("Evil (Affinity)"),
+                new Option ("Chaotic (Affinity)"),
+                new Option ("Lawful (Affinity)"),
+                new Option ("Neutrality (Affinity)")))))));
         pick.add(new Option("Lunar Sorcery (Sorcerer)"));
         pick.add(new Option("Shadow Magic (Sorcerer)"));
         pick.add(new Option("Storm Sorcery (Sorcerer)"));
         pick.add(new Option("Wild Magic (Sorcerer)"));
         pick.add(new Option("Pyromancy (Sorcerer)", true, false));
-        pick.add(new Option("Lunar Magic (Sorcerer)", true, false));
         Option a = Question.ask(pick, "Choose your Sorcerous Origin");
         list.add(a);
         pick = new ArrayList<Option>();
