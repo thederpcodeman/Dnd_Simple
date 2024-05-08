@@ -2,9 +2,11 @@ package src.Choices.Classes;
 
 import src.Choice;
 import src.Option;
+import src.Options.Subchoice;
 import src.Question;
 
 import java.util.ArrayList;
+import java.util.Arrays;
 
 public class RanSub extends Choice {
     public RanSub(){
@@ -14,7 +16,10 @@ public class RanSub extends Choice {
         ArrayList<Option> list = new ArrayList<Option>();
         ArrayList<Option> pick = new ArrayList<Option>();
         pick.add(new Option("Beast Master (Ranger)"));
-        pick.add(new Option("Fey Wondered (Ranger)"));
+        pick.add(new Subchoice("Beast Master (Ranger)", new ArrayList<>(Arrays.asList(new ArrayList<>(Arrays.asList(
+                new Option ("Ranger's Companion (Non-Variant Feature)"),
+                new Option ("Primal Companion (Variant Feature)")))))));
+        pick.add(new Option("Fey Wonderer (Ranger)"));
         pick.add(new Option("Gloom Stalker (Ranger)"));
         pick.add(new Option("Horizon Walker (Ranger)"));
         pick.add(new Option("Hunter (Ranger)"));
