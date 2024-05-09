@@ -27,6 +27,7 @@ public class WizSub extends Choice {
         pick.add(new Option("Transmutation (Wizard)"));
         pick.add(new Option("War Magic (Wizard)"));
         pick.add(new Option("Rune Crafter (Wizard)", true, false));
+        pick.add(new Option("Blood Magic ('Tal'Dorei Campaign Setting Reborn') (Wizard)", false, true));
         Option a = Question.ask(pick, "Choose your Arcane Tradition");
         list.add(a);
 

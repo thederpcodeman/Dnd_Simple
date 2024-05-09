@@ -2,9 +2,11 @@ package src.Choices.Classes;
 
 import src.Choice;
 import src.Option;
+import src.Options.Subchoice;
 import src.Question;
 
 import java.util.ArrayList;
+import java.util.Arrays;
 
 public class RogSub extends Choice {
     public RogSub(){
@@ -22,6 +24,11 @@ public class RogSub extends Choice {
         pick.add(new Option("Soul Knife (Rogue)"));
         pick.add(new Option("Swashbuckler (Rogue)"));
         pick.add(new Option("Thief (Rogue)"));
+        pick.add(new Subchoice("Wild Card ('Legends of Runeterra: Dark Tides of Bilgewater') (Rogue)", new ArrayList<>(Arrays.asList(new ArrayList<>(Arrays.asList(
+                new Option("Loaded Dice (Wild Card’s Gambit)"),
+                new Option("Dragonchess (Wild Card’s Gambit)"),
+                new Option("Playing Cards (Wild Card’s Gambit)")
+        )))), false, true));
         Option a = Question.ask(pick, "Choose your Roguish Archetype");
         list.add(a);
 
