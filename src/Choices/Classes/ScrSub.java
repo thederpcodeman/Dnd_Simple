@@ -29,6 +29,7 @@ public class ScrSub extends Choice {
         pick.add(new Option("Storm Sorcery (Sorcerer)"));
         pick.add(new Option("Wild Magic (Sorcerer)"));
         pick.add(new Option("Pyromancy (Sorcerer)", true, false));
+        pick.add(new Option("Runechild ('Tal'Dorei Campaign Setting Reborn') (Sorcerer)", false, true));
         Option a = Question.ask(pick, "Choose your Sorcerous Origin");
         list.add(a);
         pick = new ArrayList<Option>();

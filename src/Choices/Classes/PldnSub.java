@@ -22,6 +22,7 @@ public class PldnSub extends Choice {
         pick.add(new Option("Oath of Vengeance (Paladin)"));
         pick.add(new Option("Oath of the Watchers (Paladin)"));
         pick.add(new Option("Oathbreaker (Paladin)"));
+        pick.add(new Option("Oath of the Open Sea (Paladin)", false, true));
         Option a = Question.ask(pick, "Choose your Sacred Oath");
         list.add(a);
         pick = new ArrayList<Option>();

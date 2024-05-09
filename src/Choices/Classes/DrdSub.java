@@ -31,6 +31,8 @@ public class DrdSub extends Choice {
         pick.add(new Option("Stars (Druid)"));//
         pick.add(new Option("Wildfire (Druid)"));//
         pick.add(new Option("Primeval (Druid)", true, false));//
+        pick.add(new Option("The Blighted ('Tal'Dorei Campaign Setting Reborn') (Druid)", false, true));//
+        pick.add(new Option("The Forged ('Exploring Eberron') (Druid)", false, true));//
         Option a = Question.ask(pick, "Choose your Druid Circle");
         list.add(a);
 
