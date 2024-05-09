@@ -32,6 +32,10 @@ public class ClrcSub extends Choice {
         pick.add(new Option("Strength Domain (Cleric)",true, false));//
         pick.add(new Option("Zeal Domain (Cleric)",true, false));//
         pick.add(new Option("Fate Domain (Cleric)",true, false));//
+        pick.add(new Option("Beauty Domain (Cleric)",false, true));//
+        pick.add(new Option("Blood Domain ('Tal'Dorei Campaign Setting Reborn') (Cleric)",false, true));//
+        pick.add(new Option("Mind Domain ('Exploring Eberron') (Cleric)",false, true));//
+        pick.add(new Option("Moon Domain ('Tal'Dorei Campaign Setting Reborn') (Cleric)",false, true));//
         Option a = Question.ask(pick, "Choose your Divine Domain");
         list.add(a);
 

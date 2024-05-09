@@ -17,6 +17,9 @@ public class ArtSub  extends Choice {
         pick.add(new Option("Armorer (Artificer)"));//
         pick.add(new Option("Artillerist (Artificer)"));//
         pick.add(new Option("Battle Smith (Artificer)"));//
+        pick.add(new Option("Forge Adept ('Exploring Eberron') (Artificer)", false, true));//
+        pick.add(new Option("Mastermaker ('Dread Metrol') (Artificer)", false, true));//
+        pick.add(new Option("Maverick ('Exploring Eberron') (Artificer)", false, true));//
         Option a = Question.ask(pick, "Choose your Artificer Specialty");
         list.add(a);
 
