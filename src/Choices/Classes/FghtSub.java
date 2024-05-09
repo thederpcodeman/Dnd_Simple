@@ -2,9 +2,11 @@ package src.Choices.Classes;
 
 import src.Choice;
 import src.Option;
+import src.Options.Subchoice;
 import src.Question;
 
 import java.util.ArrayList;
+import java.util.Arrays;
 
 public class FghtSub extends Choice {
     public FghtSub(){
@@ -23,6 +25,11 @@ public class FghtSub extends Choice {
         pick.add(new Option("Psi Warrior (Fighter)"));
         pick.add(new Option("Rune Knight (Fighter)"));
         pick.add(new Option("Samurai (Fighter)"));
+        pick.add(new Option("Gunslinger ('D&D Beyond') (Fighter)", false, true));
+        pick.add(new Subchoice("Renegade ('Legends of Runeterra: Dark Tides of Bilgewater') (Fighter)", new ArrayList<>(Arrays.asList(new ArrayList<>(Arrays.asList(
+                new Option("Pistoleer (Renagade)"),
+                new Option("Sniper (Renagade)")
+        )))), false, true));
         Option a = Question.ask(pick, "Choose your Martial Archetype");
         list.add(a);
         pick = new ArrayList<Option>();

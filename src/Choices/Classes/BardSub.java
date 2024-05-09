@@ -32,6 +32,9 @@ public class BardSub extends Choice {
                 ))));
         pick.add(new Option("Valor (Bard)"));//
         pick.add(new Option("Whispers (Bard)"));//
+        pick.add(new Option("Dirge Singer ('Exploring Eberron') (Bard)", false, true));//
+        pick.add(new Option("Maestro ('DMSGuild') (Bard)", false, true));//
+        pick.add(new Option("Tragedy ('Tal'Dorei Campaign Setting Reborn') (Bard)", false, true));//
 
         Option a = Question.ask(pick, "Choose your Bard College");
         list.add(a);
