@@ -32,6 +32,8 @@ public class BarbSub extends Choice {
                 new Option ("Wolf (Totem Warrior)")))))));
         pick.add(new Option("Wild Magic (Barbarian)"));//
         pick.add(new Option("Zealot (Barbarian)"));//
+        pick.add(new Option("Juggernaut ('Tal'Dorei Campaign Setting Reborn') (Barbarian)", false, true));//
+        pick.add(new Option("The Depths (' Legend of Runeterra: Dark Tides of Bilgewater') (Barbarian)", false, true));//
 
         Option a = Question.ask(pick, "Choose your Primal Path");
         list.add(a);
