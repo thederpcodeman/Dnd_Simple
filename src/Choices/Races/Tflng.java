@@ -22,6 +22,7 @@ public class Tflng extends Choice {
         pick.add(new Option("Bloodline of Mammon (Tiefling)"));
         pick.add(new Option("Bloodline of Mephistopheles (Tiefling)"));
         pick.add(new Option("Bloodline of Zariel (Tiefling)"));
+        pick.add(new Option("Abyssal Tiefling (Tiefling)", true, false));
         Option a = Question.ask(pick, "Choose your Bloodline");
         list.add(a);
         pick = new ArrayList<Option>();
