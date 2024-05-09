@@ -6,12 +6,13 @@ import java.util.Scanner;
 public class Question {
     public static boolean rand;
     public static boolean HB;
+    public static boolean HB2;
     public static boolean UA;
     public static Option ask(ArrayList<Option> l1, String promt){
         ArrayList<Option> l = new ArrayList<>();
-        if (!(HB && UA)){
+        if (!(HB && UA && HB2)){
             for (Option i : l1){
-                if ((!i.HB || HB) && (!i.UA || UA)){
+                if ((!i.HB || HB) && (!i.UA || UA) && (!i.HB2 || HB2)){
                     l.add(i);
                 }
             }

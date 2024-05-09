@@ -17,8 +17,10 @@ public class Main {
         Question.rand = sc.nextBoolean();
         System.out.println("Would you like to enable select Unearthed Arcana / Potentially Setting Specific features (These features will be called UA even if they are not) (true/false)");
         Question.UA = sc.nextBoolean();
-        System.out.println("Would you like to enable select Homebrew features (true/false)");
+        System.out.println("Would you like to enable select Homebrew features. (true/false)");
         Question.HB = sc.nextBoolean();
+        System.out.println("Would you like to enable All Homebrew features. (true/false)");
+        Question.HB2 = sc.nextBoolean();
         Charicter guy = new Charicter();
         ArrayList<Option> list = guy.run();
         ArrayList<Option> list2 = new ArrayList<>();

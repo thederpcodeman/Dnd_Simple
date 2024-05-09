@@ -15,6 +15,10 @@ public class Subchoice extends Option {
         super(n, u, h);
         list = l;
     }
+    public Subchoice(String n, ArrayList<ArrayList<Option>> l, Boolean a){
+        super(n, a);
+        list = l;
+    }
     public ArrayList<Option> run(){
         ArrayList<Option> pick;
         ArrayList<Option> done = new ArrayList<>();
