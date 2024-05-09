@@ -20,6 +20,8 @@ public class Hlfelf extends Choice {
         pick.add(new Option("Mask of the Wild (Half-Elf Versatility)"));
         pick.add(new Option("Drow Magic (Half-Elf Versatility)"));
         pick.add(new Option("Swim Speed (Half-Elf Versatility)"));
+        pick.add(new Option("Mark of Detection (Eberron) (Half-Elf Subclass)", true, false));
+        pick.add(new Option("Mark of Storm (Eberron) (Half-Elf Subclass)", true, false));
 
         Option a = Question.ask(pick, "Choose your Half-Elf Versatility Feature");
         list.add(a);

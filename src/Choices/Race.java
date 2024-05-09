@@ -3,9 +3,11 @@ package src.Choices;
 import src.Choice;
 import src.Option;
 import src.Options.Races.*;
+import src.Options.Subchoice;
 import src.Question;
 
 import java.util.ArrayList;
+import java.util.Arrays;
 
 public class Race extends Choice {
     public Race(){
@@ -19,7 +21,10 @@ public class Race extends Choice {
         pick.add(new Elf("Elf"));//
         pick.add(new Gnome("Gnome"));//
         pick.add(new HalfElf("Half Elf"));//
-        pick.add(new Option("Half Orc"));//
+        pick.add(new Subchoice("Half Orc", new ArrayList<>(Arrays.asList(new ArrayList<>(Arrays.asList(
+                new Option("Standard Half Orc"),
+                new Option("Mark of Finding (Eberron)")
+        ))))));//
         pick.add(new Halfling("Halfling"));//
         pick.add(new Human("Human"));//
         pick.add(new Tiefling("Tiefling"));//
