@@ -29,6 +29,7 @@ public class WlkSub extends Choice {
         pick.add(new Option("Hexblade (Warlock)"));
         pick.add(new Option("Undead (Warlock)"));
         pick.add(new Option("Undying (Warlock)"));
+        pick.add(new Option("Kraken ('ThinkDM') (Warlock)", false, true));
         Option a = Question.ask(pick, "Choose your Patron");
         list.add(a);
         pick = new ArrayList<Option>();
