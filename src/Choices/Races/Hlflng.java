@@ -21,7 +21,7 @@ public class Hlflng extends Choice {
         pick.add(new Option("Mark of Healing (Eberron) (Halfling)", true, false));
         Option a = Question.ask(pick, "Choose your Subrace");
         list.add(a);
-
+//
 
         return list;
     }
