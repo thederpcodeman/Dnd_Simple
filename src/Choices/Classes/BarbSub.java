@@ -34,6 +34,30 @@ public class BarbSub extends Choice {
         pick.add(new Option("Zealot (Barbarian)"));//
         pick.add(new Option("Juggernaut ('Tal'Dorei Campaign Setting Reborn') (Barbarian)", false, true));//
         pick.add(new Option("The Depths (' Legend of Runeterra: Dark Tides of Bilgewater') (Barbarian)", false, true));//
+        pick.add(new Option("Avatar of Rage ('dandwiki')(Barbarian)", true));
+        pick.add(new Option("Axe Idiot ('dandwiki')(Barbarian)", true));
+        pick.add(new Option("Berserker, Variant ('dandwiki')(Barbarian)", true));
+        pick.add(new Option("Brutalist ('dandwiki')(Barbarian)", true));
+        pick.add(new Option("Champion of He ('dandwiki')(Barbarian)", true));
+        pick.add(new Option("Dizzy Master ('dandwiki')(Barbarian)", true));
+        pick.add(new Option("Dragon Piercer ('dandwiki')(Barbarian)", true));
+        pick.add(new Option("Jaguar Warrior ('dandwiki')(Barbarian)", true));
+        pick.add(new Option("Magical Girl ('dandwiki')(Barbarian)", true)); //this is for warlock, sorcerer, and barbarian for some reason
+        pick.add(new Option("Path of Abyssal Might ('dandwiki')(Barbarian)", true));
+        pick.add(new Option("Path of the Arcane Rage ('dandwiki')(Barbarian)", true));
+        pick.add(new Option("Path of Blinding Rage ('dandwiki')(Barbarian)", true));
+        pick.add(new Option("Path of Blood, Variant ('dandwiki')(Barbarian)", true));
+        pick.add(new Option("Path of Crash ('dandwiki')(Barbarian)", true));
+        pick.add(new Option("Path of Graceful Rage ('dandwiki')(Barbarian)", true));
+        pick.add(new Option("Path of Hanma ('dandwiki')(Barbarian)", true));
+        pick.add(new Option("Path of Hoodoo Will ('dandwiki')(Barbarian)", true));
+        pick.add(new Option("Path of Radiance ('dandwiki')(Barbarian)", true));
+        pick.add(new Option("Path of Relentless Fury ('dandwiki')(Barbarian)", true));
+        pick.add(new Option("Path of Rhonas ('dandwiki')(Barbarian)", true));
+        pick.add(new Option("Path of the Abomination ('dandwiki')(Barbarian)", true));
+        pick.add(new Option("Path of the Annihilator ('dandwiki')(Barbarian)", true));
+        pick.add(new Option("Path of the Ash-Veined ('dandwiki')(Barbarian)", true));
+        pick.add(new Option("Path of Barbarian ('dandwiki')(Barbarian)", true));
 
         Option a = Question.ask(pick, "Choose your Primal Path");
         list.add(a);
