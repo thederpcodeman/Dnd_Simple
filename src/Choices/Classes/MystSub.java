@@ -22,6 +22,17 @@ public class MystSub extends Choice {
         pick.add(new Option("Soul Knife (Mystic)"));
         pick.add(new Option("Wu Jen (Mystic)"));
 
+
+        pick.add(new Option("Order of the Dream Eater ('dandwiki')(Mystic)", true));
+        pick.add(new Option("Order of the Ghost ('dandwiki')(Mystic)", true));
+        pick.add(new Option("Order of the Open Mind ('dandwiki')(Mystic)", true));
+        pick.add(new Option("Order of the Oracle ('dandwiki')(Mystic)", true));
+        pick.add(new Option("Order of the Phantom Warrior ('dandwiki')(Mystic)", true));
+        pick.add(new Option("Order of the Planemind ('dandwiki')(Mystic)", true));
+        pick.add(new Option("Order of the Shadow Soul ('dandwiki')(Mystic)", true));
+        pick.add(new Option("Order of the Tapir Spirit ('dandwiki')(Mystic)", true));
+        pick.add(new Option("Order of the Wielder ('dandwiki')(Mystic)", true));
+
         Option a = Question.ask(pick, "Choose your Mystic Order");
         list.add(a);
 
