@@ -22,12 +22,45 @@ public class CClass extends Choice {
         pick.add(new Druid("Druid"));
         pick.add(new Fighter("Fighter"));
         pick.add(new Monk("Monk"));
+        pick.add(new Monk("Mystic"));
         pick.add(new Paladin("Paladin"));
-        pick.add(new Ranger("Ranger")); //Not fininished, so many choices
+        pick.add(new Ranger("Ranger"));
         pick.add(new Rogue("Rogue"));
         pick.add(new Sorcerer("Sorcerer"));
         pick.add(new Warlock("Warlock"));
         pick.add(new Wizard("Wizard"));
+        //Custom
+
+        if (Question.rand){
+            pick.add(new Artificer("Artificer"));
+            pick.add(new Barbarian("Barbarian"));
+            pick.add(new Bard("Bard"));
+            pick.add(new Blood_Hunter("Blood Hunter"));
+            pick.add(new Cleric("Cleric"));
+            pick.add(new Druid("Druid"));
+            pick.add(new Fighter("Fighter"));
+            pick.add(new Monk("Monk"));
+            pick.add(new Paladin("Paladin"));
+            pick.add(new Ranger("Ranger"));
+            pick.add(new Rogue("Rogue"));
+            pick.add(new Sorcerer("Sorcerer"));
+            pick.add(new Warlock("Warlock"));
+            pick.add(new Wizard("Wizard"));
+            //Custom
+
+            pick.add(new Barbarian("Barbarian"));
+            pick.add(new Bard("Bard"));
+            pick.add(new Cleric("Cleric"));
+            pick.add(new Druid("Druid"));
+            pick.add(new Fighter("Fighter"));
+            pick.add(new Monk("Monk"));
+            pick.add(new Paladin("Paladin"));
+            pick.add(new Ranger("Ranger"));
+            pick.add(new Rogue("Rogue"));
+            pick.add(new Sorcerer("Sorcerer"));
+            pick.add(new Warlock("Warlock"));
+            pick.add(new Wizard("Wizard"));
+        }
         Option a = Question.ask(pick, "Choose your class");
         list.add(a);
 
