@@ -28,6 +28,8 @@ public class BHSub extends Choice {
                 new Option("Hexblade (Patron)"),
                 new Option("Undead (Patron)"),
                 new Option("Undying (Patron)")))))));
+
+
         pick.add(new Option("Order of the Blood Revenant ('dandwiki')(Blood Hunter)", true));
         pick.add(new Option("Order of the Devil Slayer ('dandwiki')(Blood Hunter)", true));
         pick.add(new Option("Order of the Dragon ('dandwiki')(Blood Hunter)", true));

@@ -20,6 +20,8 @@ public class ArtSub  extends Choice {
         pick.add(new Option("Forge Adept ('Exploring Eberron') (Artificer)", false, true));//
         pick.add(new Option("Mastermaker ('Dread Metrol') (Artificer)", false, true));//
         pick.add(new Option("Maverick ('Exploring Eberron') (Artificer)", false, true));//
+
+
         pick.add(new Option("Alchemical Toxicologist ('dandwiki')(Artificer)", true));
         pick.add(new Option("Animator ('dandwiki')(Artificer)", true));
         pick.add(new Option("Arcane Artist ('dandwiki')(Artificer)", true));

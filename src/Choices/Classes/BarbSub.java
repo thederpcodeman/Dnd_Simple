@@ -34,6 +34,8 @@ public class BarbSub extends Choice {
         pick.add(new Option("Zealot (Barbarian)"));//
         pick.add(new Option("Juggernaut ('Tal'Dorei Campaign Setting Reborn') (Barbarian)", false, true));//
         pick.add(new Option("The Depths (' Legend of Runeterra: Dark Tides of Bilgewater') (Barbarian)", false, true));//
+
+
         pick.add(new Option("Avatar of Rage ('dandwiki')(Barbarian)", true));
         pick.add(new Option("Axe Idiot ('dandwiki')(Barbarian)", true));
         pick.add(new Option("Battlerager ('dandwiki')(Barbarian)", true));

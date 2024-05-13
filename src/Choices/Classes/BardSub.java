@@ -35,6 +35,8 @@ public class BardSub extends Choice {
         pick.add(new Option("Dirge Singer ('Exploring Eberron') (Bard)", false, true));//
         pick.add(new Option("Maestro ('DMSGuild') (Bard)", false, true));//
         pick.add(new Option("Tragedy ('Tal'Dorei Campaign Setting Reborn') (Bard)", false, true));//
+
+
         pick.add(new Option("Artiste de Cirque ('dandwiki')(Bard)", true));
         pick.add(new Option("College of Acapella ('dandwiki')(Bard)", true));
         pick.add(new Option("College of Apamaanit ('dandwiki')(Bard)", true));
