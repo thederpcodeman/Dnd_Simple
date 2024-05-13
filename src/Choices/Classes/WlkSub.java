@@ -282,6 +282,8 @@ public class WlkSub extends Choice {
         pick.add(new Option("Chair ('dandwiki')(Warlock)", true));
         pick.add(new Option("Gritty ('dandwiki')(Warlock)", true));
         pick.add(new Option("The Dungeon Master ('dandwiki')(Warlock)", true));
+        pick.add(new Option("The Floridian ('dandwiki')(Warlock)", true));
+        pick.add(new Option("Taliesin Jaffe ('dandwiki')(Warlock)", true));
         Option a = Question.ask(pick, "Choose your Patron");
         list.add(a);
         pick = new ArrayList<Option>();
