@@ -47,6 +47,7 @@ public class BHSub extends Choice {
         pick.add(new Option("Order of the Sword Scourge ('dandwiki')(Blood Hunter)", true));
         pick.add(new Option("Order of the Timekeepers ('dandwiki')(Blood Hunter)", true));
         pick.add(new Option("Order of the Yharnam Hunter ('dandwiki')(Blood Hunter)", true));
+        pick.add(new Option("Order of the Virtual Idol ('dandwiki')(Blood Hunter)", true));
         Option a = Question.ask(pick, "Choose your Blood Hunter Order");
         list.add(a);
         pick = new ArrayList<Option>();

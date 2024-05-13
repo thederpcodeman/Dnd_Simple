@@ -451,6 +451,8 @@ public class MnkSub extends Choice {
         pick.add(new Option("Way of Voltage ('dandwiki')(Monk)", true));
         pick.add(new Option("Way of Xianghua ('dandwiki')(Monk)", true));
         pick.add(new Option("Way of Yin and Yang ('dandwiki')(Monk)", true));
+        pick.add(new Option("Five Finger Death Punch ('dandwiki')(Monk)", true));
+
         Option a = Question.ask(pick, "Choose your Monastic Tradition");
         list.add(a);
 

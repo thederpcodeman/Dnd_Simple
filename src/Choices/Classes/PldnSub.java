@@ -191,6 +191,9 @@ public class PldnSub extends Choice {
         pick.add(new Option("The Second Circle: Undead Destroyers ('dandwiki')(Paladin)", true));
         pick.add(new Option("The Third Circle: Eldritch Slayers ('dandwiki')(Paladin)", true));
         pick.add(new Option("Ushtabi Guardian ('dandwiki')(Paladin)", true));
+        pick.add(new Option("Oath of Censorship ('dandwiki')(Paladin)", true));
+        pick.add(new Option("Oath of Soup ('dandwiki')(Paladin)", true));
+        pick.add(new Option("Oath of the Administrator ('dandwiki')(Paladin)", true));
         Option a = Question.ask(pick, "Choose your Sacred Oath");
         list.add(a);
         pick = new ArrayList<Option>();

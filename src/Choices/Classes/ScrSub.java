@@ -267,6 +267,8 @@ public class ScrSub extends Choice {
         pick.add(new Option("Winter Soul ('dandwiki')(Sorcerer)", true));
         pick.add(new Option("Winter Touched ('dandwiki')(Sorcerer)", true));
         pick.add(new Option("Witchborn ('dandwiki')(Sorcerer)", true));
+        pick.add(new Option("Imposter Origin ('dandwiki')(Suserer)", true));
+        pick.add(new Option("Muscle Sorcerer ('dandwiki')(Suserer)", true));
         Option a = Question.ask(pick, "Choose your Sorcerous Origin");
         list.add(a);
         pick = new ArrayList<Option>();

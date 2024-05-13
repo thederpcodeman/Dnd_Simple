@@ -462,6 +462,7 @@ public class FghtSub extends Choice {
         pick.add(new Option("Windwalker, Variant ('dandwiki')(Fighter)", true));
         pick.add(new Option("Windwhisper Templar ('dandwiki')(Fighter)", true));
         pick.add(new Option("Xenomorph Paragon ('dandwiki')(Fighter)", true));
+        pick.add(new Option("Door Master/Fighdor ('dandwiki')(Fighter)", true));
         Option a = Question.ask(pick, "Choose your Martial Archetype");
         list.add(a);
         pick = new ArrayList<Option>();

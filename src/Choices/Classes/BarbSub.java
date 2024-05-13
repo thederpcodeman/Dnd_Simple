@@ -263,6 +263,7 @@ public class BarbSub extends Choice {
         pick.add(new Option("Troll Paragon ('dandwiki')(Barbarian)", true));
         pick.add(new Option("Xenomorph Paragon ('dandwiki')(Barbarian)", true));
         pick.add(new Option("Yorgun Battlerager ('dandwiki')(Barbarian)", true));
+        pick.add(new Option("Path of \"Real\" Spellcaster ('dandwiki')(Barbarian)", true));
 
 
         Option a = Question.ask(pick, "Choose your Primal Path");

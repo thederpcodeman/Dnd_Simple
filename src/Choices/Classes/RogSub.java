@@ -227,6 +227,7 @@ public class RogSub extends Choice {
         pick.add(new Option("Void Blade ('dandwiki')(Rogue)", true));
         pick.add(new Option("Wild Trickster ('dandwiki')(Rogue)", true));
         pick.add(new Option("Wyrmhand ('dandwiki')(Rogue)", true));
+        pick.add(new Option("MacGyver ('dandwiki')(Rogue)", true));
         Option a = Question.ask(pick, "Choose your Roguish Archetype");
         list.add(a);
 

@@ -153,6 +153,7 @@ public class BardSub extends Choice {
         pick.add(new Option("General College ('dandwiki')(Bard)", true));
         pick.add(new Option("Hedonist ('dandwiki')(Bard)", true));
         pick.add(new Option("Rastafarian ('dandwiki')(Bard)", true));
+        pick.add(new Option("College of Shitposting ('dandwiki')(Bard)", true));
 
 
         Option a = Question.ask(pick, "Choose your Bard College");

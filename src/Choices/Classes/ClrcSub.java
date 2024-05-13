@@ -197,6 +197,7 @@ public class ClrcSub extends Choice {
         pick.add(new Option("Wine Domain ('dandwiki')(Cleric)", true));
         pick.add(new Option("Wrath Domain ('dandwiki')(Cleric)", true));
         pick.add(new Option("Wu Wei Master ('dandwiki')(Cleric)", true));
+        pick.add(new Option("Feminism Domain ('dandwiki')(Cleric)", true));
         Option a = Question.ask(pick, "Choose your Divine Domain");
         list.add(a);
 
