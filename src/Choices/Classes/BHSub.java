@@ -28,6 +28,23 @@ public class BHSub extends Choice {
                 new Option("Hexblade (Patron)"),
                 new Option("Undead (Patron)"),
                 new Option("Undying (Patron)")))))));
+        pick.add(new Option("Order of the Blood Revenant ('dandwiki')(Blood Hunter)", true));
+        pick.add(new Option("Order of the Devil Slayer ('dandwiki')(Blood Hunter)", true));
+        pick.add(new Option("Order of the Dragon ('dandwiki')(Blood Hunter)", true));
+        pick.add(new Option("Order of the Fang ('dandwiki')(Blood Hunter)", true));
+        pick.add(new Option("Order of the Giant ('dandwiki')(Blood Hunter)", true));
+        pick.add(new Option("Order of the Juggernaut ('dandwiki')(Blood Hunter)", true));
+        pick.add(new Option("Order of the Kraken ('dandwiki')(Blood Hunter)", true));
+        pick.add(new Option("Order of the Legacy ('dandwiki')(Blood Hunter)", true));
+        pick.add(new Option("Order of the Mind Flayer ('dandwiki')(Blood Hunter)", true));
+        pick.add(new Option("Order of the Pixie ('dandwiki')(Blood Hunter)", true));
+        pick.add(new Option("Order of the Powder Keg ('dandwiki')(Blood Hunter)", true));
+        pick.add(new Option("Order of the Pyromancer ('dandwiki')(Blood Hunter)", true));
+        pick.add(new Option("Order of the Seraph ('dandwiki')(Blood Hunter)", true));
+        pick.add(new Option("Order of the Soul Hunter ('dandwiki')(Blood Hunter)", true));
+        pick.add(new Option("Order of the Sword Scourge ('dandwiki')(Blood Hunter)", true));
+        pick.add(new Option("Order of the Timekeepers ('dandwiki')(Blood Hunter)", true));
+        pick.add(new Option("Order of the Yharnam Hunter ('dandwiki')(Blood Hunter)", true));
         Option a = Question.ask(pick, "Choose your Blood Hunter Order");
         list.add(a);
         pick = new ArrayList<Option>();
