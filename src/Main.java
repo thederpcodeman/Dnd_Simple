@@ -19,8 +19,13 @@ public class Main {
         Question.UA = sc.nextBoolean();
         System.out.println("Would you like to enable select Homebrew features. (true/false)");
         Question.HB = sc.nextBoolean();
-        System.out.println("Would you like to enable All Homebrew features. (true/false)");
-        Question.HB2 = sc.nextBoolean();
+        if (Question.HB && Question.UA){
+            System.out.println("Would you like to enable All Homebrew features. (true/false)");
+            Question.HB2 = sc.nextBoolean();
+        }else{
+            Question.HB2 = false;
+        }
+
         Charicter guy = new Charicter();
         ArrayList<Option> list = guy.run();
         ArrayList<Option> list2 = new ArrayList<>();
