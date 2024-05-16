@@ -32,6 +32,25 @@ public class Asmar extends Choice {
             pick.add(new Option("Protector Aasimar (Volo's Aasimar)"));
             pick.add(new Option("Scourge Aasimar (Volo's Aasimar)"));
             pick.add(new Option("Fallen Aasimar (Volo's Aasimar)"));
+            pick.add(new Option("Betrayed Aasimar ('dandwiki')(Volo's Aasimar)", true));
+            pick.add(new Option("Blood Angel ('dandwiki')(Volo's Aasimar)", true));
+            pick.add(new Option("CPU Aasimar ('dandwiki')(Volo's Aasimar)", true));
+            pick.add(new Option("Devani ('dandwiki')(Volo's Aasimar)", true));
+            pick.add(new Option("Dragon Child ('dandwiki')(Volo's Aasimar)", true));
+            pick.add(new Option("Dragonborn Angel ('dandwiki')(Volo's Aasimar)", true));
+            pick.add(new Option("Fallen Angel ('dandwiki')(Volo's Aasimar)", true));
+            pick.add(new Option("Half-Dragon ('dandwiki')(Volo's Aasimar)", true));
+            pick.add(new Option("Mothra Aasimar ('dandwiki')(Volo's Aasimar)", true));
+            pick.add(new Option("Ophanim Aasimar ('dandwiki')(Volo's Aasimar)", true));
+            pick.add(new Option("Reaper Aasimar ('dandwiki')(Volo's Aasimar)", true));
+            pick.add(new Option("Risen Aasimar ('dandwiki')(Volo's Aasimar)", true));
+            pick.add(new Option("Spark Soul ('dandwiki')(Volo's Aasimar)", true));
+            pick.add(new Option("Survivor ('dandwiki')(Volo's Aasimar)", true));
+            pick.add(new Option("Titanborn ('dandwiki')(Volo's Aasimar)", true));
+            pick.add(new Option("Winged Aasimar ('dandwiki')(Volo's Aasimar)", true));
+            pick.add(new Option("Winged Aasimar, Variant ('dandwiki')(Volo's Aasimar)", true));
+            pick.add(new Option("Wisper Soul ('dandwiki')(Volo's Aasimar)", true));
+            pick.add(new Option("Zombie ('dandwiki')(Volo's Aasimar)", true));
             a = Question.ask(pick, "Choose your Subrace");
             list.add(a);
         }
