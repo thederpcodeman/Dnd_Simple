@@ -2197,6 +2197,24 @@ public class Race extends Choice {
         pick.add(new Option("Two Kobolds in a Suit ('dandwiki')", true));
         pick.add(new Option("Were-Terrasque ('dandwiki')", true));
         pick.add(new Option("Werechicken ('dandwiki')", true));
+        pick.add(new Option("Acid Genasi ('dandwiki')(Genasi)", true));
+        pick.add(new Option("Air Genasi, Variant ('dandwiki')(Genasi)", true));
+        pick.add(new Option("Arcani ('dandwiki')(Genasi)", true));
+        pick.add(new Option("Celesti ('dandwiki')(Genasi)", true));
+        pick.add(new Option("Dragon Child ('dandwiki')(Genasi)", true));
+        pick.add(new Option("Eldrati ('dandwiki')(Genasi)", true));
+        pick.add(new Option("Gem Genasi ('dandwiki')(Genasi)", true));
+        pick.add(new Option("Half-Dragon ('dandwiki')(Genasi)", true));
+        pick.add(new Option("Light Genasi/Darkness Genasi ('dandwiki')(Genasi)", true));
+        pick.add(new Option("Lightning Genasi ('dandwiki')(Genasi)", true));
+        pick.add(new Option("Magmati ('dandwiki')(Genasi)", true));
+        pick.add(new Option("Negati ('dandwiki')(Genasi)", true));
+        pick.add(new Option("Para Genasi ('dandwiki')(Genasi)", true));
+        pick.add(new Option("Posati ('dandwiki')(Genasi)", true));
+        pick.add(new Option("Psionti ('dandwiki')(Genasi)", true));
+        pick.add(new Option("Survivor ('dandwiki')(Genasi)", true));
+        pick.add(new Option("Wind Genasi ('dandwiki')(Genasi)", true));
+        pick.add(new Option("Zombie ('dandwiki')(Genasi)", true));
 
         //Randomizer probiblity modification
         if (Question.rand){
